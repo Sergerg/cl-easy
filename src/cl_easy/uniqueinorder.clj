@@ -4,10 +4,6 @@
 
 ;; AAABCCcAAA -> [\A \B \C \c \A]
 
-;; (defn unique-in-order [input]
-;;   ; happy coding!  
-;;   )
-
 (defn uniqueInOrderList [l]
   (loop [n (first l) list (rest l) res []] ;; this works just like a 'let' binding.
     (println n list res)
